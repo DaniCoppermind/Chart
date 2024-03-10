@@ -3,19 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Estadisticas Informatica</title>
+    <title>Informatica</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      *, html {
+        font-family: system-ui;
+      }
+    </style>
   </head>
   <body class="overflow-x-hidden">
-    <h1 class="text-center">Estadisticas Informatica</h1>
+
+    <nav class="px-4 navbar navbar-expand-lg navbar-light bg-light">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a target="_blank" class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc7TnPs2Il_3oYM7B1juypYfOpYGkNztFKuBGfJvOhF-xGe3g/viewform?usp=sf_link"><strong>Encuesta</strong></a>
+        </li>
+        <li class="nav-item active">
+          <a target="_blank" class="nav-link" href="https://docs.google.com/spreadsheets/d/1f9Dos0kTyloEz0oGMu5SI4e4EQPX6UHWSx3y7amZwGU/edit?resourcekey#gid=181359943"><strong>Hoja de Calculo</strong></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#accordionExample" ><strong>Conclusión</strong></a>
+        </li>
+      </ul>
+    </nav>
 
     <div class="container mt-2">
-
+      <h1 class="text-center">Tabla de Resultados</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
@@ -139,26 +157,72 @@
         </div>
       </div>
 
-      <div class="my-3">
-        <h1 class="text-center">Conclusión</h1>
-        <p class="text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur
-          necessitatibus temporibus consequatur dicta. Doloremque voluptate
-          obcaecati, perspiciatis aspernatur architecto porro laborum ab minus
-          corporis eos, sit, ipsam laboriosam omnis! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Nam voluptate aut vero quam, tempore
-          possimus est consectetur ipsam porro consequatur veritatis id aliquid
-          sapiente repellat ad iusto dolor eveniet quaerat exercitationem dicta
-          facilis corrupti totam voluptatum assumenda. Corrupti, at voluptatibus
-          perferendis, architecto, sunt nam explicabo tempore pariatur eaque
-          neque dignissimos? Cum quibusdam numquam porro, necessitatibus quam
-          adipisci repellat pariatur? Porro exercitationem quibusdam quos
-          eveniet necessitatibus? Quo minus voluptatibus nisi provident quas
-          odio quos ab sit pariatur, expedita nulla laudantium omnis eveniet
-          necessitatibus voluptatem. Vero, officia. Ipsam quisquam dolore quasi
-          reiciendis hic velit mollitia aliquam! Magnam ea placeat ut fugit
-          incidunt!
-        </p>
+      <div class="py-3 accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Conclusión
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse p-4 text-left"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <p>
+              Entendemos que la competencia digital implica utilizar la
+              tecnología para diversas finalidades, como crear, informar,
+              comunicar y almacenar información en ámbitos personales,
+              estudiantiles, educativos y laborales. Se refiere al conjunto de
+              conocimientos, habilidades y estrategias necesarias para manejar
+              la tecnología de manera efectiva, especialmente mediante el uso de
+              medios de comunicación en diversas funciones.
+            </p>
+            <p>
+              En el contexto educativo, se reconoce la importancia de las
+              competencias digitales para la formación académica de los
+              profesores, quienes las emplean al dar clases, informar, crear
+              actividades y gestionar aspectos profesionales como planes
+              educativos y calificaciones. La aplicación de estas competencias
+              requiere la disponibilidad de dispositivos tecnológicos en casa,
+              ya que son esenciales para la comunicación de la información en
+              esta era digital.
+            </p>
+            <p>
+              A pesar de los avances tecnológicos, en Venezuela, las
+              competencias digitales aún no están plenamente integradas en la
+              educación. Aunque muchos estudiantes universitarios participan en
+              clases virtuales, estas no siempre son lo suficientemente
+              atractivas o comprensibles. La falta de incorporación de
+              herramientas digitales es más evidente en la educación primaria y
+              secundaria. Sin embargo, los estudiantes utilizan el internet como
+              su principal fuente de información para tareas y trabajos.
+            </p>
+            <p>
+              Las encuestas son herramientas tecnológicas útiles para comprender
+              la percepción global sobre las competencias digitales en la
+              educación. Observamos que la tecnología está presente en la
+              educación, con la mayoría de las personas participando en clases
+              virtuales y utilizando recursos digitales para recreación
+              pedagógica. La retroalimentación de información útil se logra a
+              través de plataformas como páginas web, aplicaciones y redes
+              sociales.
+            </p>
+            <strong>
+              Estamos inmersos en la era cibernética, donde el mundo está
+              interconectado a través de pantallas. Este contexto representa el
+              futuro, y es crucial aprovecharlo de manera efectiva.
+            </strong>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -172,7 +236,6 @@
         <li>Morillo Vannesa</li>
       </ul>
     </div>
-
     <footer
       class="d-flex flex-column flex-sm-row justify-content-around py-4 my-1 border-top"
     >
