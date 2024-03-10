@@ -38,7 +38,7 @@ const data1 = {
   labels: ["Docente", "Estudiante", "Otros"],
   datasets: [
     {
-      data: [5, 19, 1],
+      data: [5, 26, 1],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -68,7 +68,7 @@ const data2 = {
   labels: educaciones,
   datasets: [
     {
-      data: [0, 2, 8, 15],
+      data: [0, 1, 15, 16],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -91,7 +91,7 @@ const data3 = {
   labels: ["Si", "No", "Más o menos"],
   datasets: [
     {
-      data: [24, 0, 1],
+      data: [31, 0, 1],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -114,7 +114,7 @@ const data4 = {
   labels: ["Si", "No", "Más o menos"],
   datasets: [
     {
-      data: [15, 3, 7],
+      data: [19, 6, 7],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -137,7 +137,7 @@ const data5 = {
   labels: ["Si", "No", "En ocasiones"],
   datasets: [
     {
-      data: [15, 3, 7],
+      data: [17, 5, 10],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -160,7 +160,7 @@ const data6 = {
   labels:  ["Si", "No", "En proceso de mejora"],
   datasets: [
     {
-      data: [8, 9, 8],
+      data: [11, 10, 11],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -183,7 +183,7 @@ const data7 = {
   labels:  ["Si", "No", "Ocasionalmente"],
   datasets: [
     {
-      data: [10 ,6, 9],
+      data: [13 ,7, 12],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -206,7 +206,7 @@ const data8 = {
   labels:  ["Si", "No", "Necesitaría formación"],
   datasets: [
     {
-      data: [8, 11, 6],
+      data: [9, 16, 7],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
@@ -229,7 +229,7 @@ const data9 = {
   labels:  ["Si", "No", "Necesito formación adicional"],
   datasets: [
     {
-      data: [20, 1, 4],
+      data: [26, 1, 5],
       backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
