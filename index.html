@@ -11,28 +11,48 @@
       crossorigin="anonymous"
     />
     <style>
-      *, html {
+      * {
         font-family: system-ui;
+      }
+
+      body {
+        background-color: #dbe9ee;
+      }
+
+      nav,
+      footer {
+        background-color: #c0d6df;
       }
     </style>
   </head>
   <body class="overflow-x-hidden">
-
-    <nav class="px-4 navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="px-4 navbar navbar-expand-lg">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a target="_blank" class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc7TnPs2Il_3oYM7B1juypYfOpYGkNztFKuBGfJvOhF-xGe3g/viewform?usp=sf_link"><strong>Encuesta</strong></a>
+          <a
+            target="_blank"
+            class="nav-link"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc7TnPs2Il_3oYM7B1juypYfOpYGkNztFKuBGfJvOhF-xGe3g/viewform?usp=sf_link"
+            ><strong>Encuesta</strong></a
+          >
         </li>
         <li class="nav-item active">
-          <a target="_blank" class="nav-link" href="https://docs.google.com/spreadsheets/d/1f9Dos0kTyloEz0oGMu5SI4e4EQPX6UHWSx3y7amZwGU/edit?resourcekey#gid=181359943"><strong>Hoja de Calculo</strong></a>
+          <a
+            target="_blank"
+            class="nav-link"
+            href="https://docs.google.com/spreadsheets/d/1f9Dos0kTyloEz0oGMu5SI4e4EQPX6UHWSx3y7amZwGU/edit?resourcekey#gid=181359943"
+            ><strong>Hoja de Calculo</strong></a
+          >
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#accordionExample" ><strong>Conclusión</strong></a>
+          <a class="nav-link" href="#accordionExample"
+            ><strong>Conclusión</strong></a
+          >
         </li>
       </ul>
     </nav>
 
-    <div class="container mt-2">
+    <main class="container mt-2">
       <h1 class="text-center">Tabla de Resultados</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -224,20 +244,44 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="d-flex flex-column justify-content-end align-items-end px-4">
-      <p>Realizado por:</p>
-      <ul class="list-unstyled text-left">
-        <li>Mercado Anmary</li>
-        <li>García Daniel</li>
-        <li>Villegas Daniela</li>
-        <li>García Manuel</li>
-        <li>Morillo Vannesa</li>
-      </ul>
-    </div>
+      <div class="py-3 accordion" id="accordionRealizado">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Realizado Por
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse p-4 text-left"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionRealizado"
+          >
+            <div class="">
+              <p>Realizado por:</p>
+              <ul class="list-unstyled text-left">
+                <li><strong>Mercado Anmary</strong></li>
+                <li><strong>García Daniel</strong></li>
+                <li><strong>Villegas Daniela</strong></li>
+                <li><strong>García Manuel</strong></li>
+                <li><strong>Morillo Vannesa</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <footer
-      class="d-flex flex-column flex-sm-row justify-content-around py-4 my-1 border-top"
+      class="d-flex flex-column flex-sm-row justify-content-between py-4 px-2 my-1 border-top"
     >
       <p>© 2024 CoppeminDev, All rights reserved.</p>
       <ul class="list-unstyled d-flex">
